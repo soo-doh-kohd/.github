@@ -8,6 +8,6 @@ jobs:
   gitflow-pipeline:
     uses: soo-doh-kohd/pipeline/.github/workflows/pipeline.yml@main
     with:
-      environment: 'dev'
-      project-name: $GITHUB_ACTOR
-      project-type: ''
+      environment: 'dev' # The environment you are deploying to.
+      project-name: '' # The name of your project.
+      project-type: '' # The type of project (e.g., .NET Core, Angular, Python, etc.).
