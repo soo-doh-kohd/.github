@@ -1,17 +1,11 @@
-name: SDK CI
+name: Pipeline File
 
 on:
   push:
     branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Run a one-line script
-        run: echo Hello from SDK Organization
+  gitflow-pipeline:
+    uses: soo-doh-kohd/pipeline/.github/workflows/pipeline.yml@main
+    with:
+      username: Robb
