@@ -8,5 +8,6 @@ jobs:
   gitflow-pipeline:
     uses: soo-doh-kohd/pipeline/.github/workflows/pipeline.yml@main
     with:
-      project-name: 'Your Project Name'
-      node-version: '14.x'
+      environment: 'dev'
+      project-name: '[ env.GITHUB_ACTOR ]'
+      project-type: ''
