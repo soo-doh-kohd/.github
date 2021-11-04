@@ -1,0 +1,13 @@
+{
+    "name": "Angular Build",
+    "description": "Builds an Angular app.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
