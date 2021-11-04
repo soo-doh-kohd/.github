@@ -1,0 +1,13 @@
+name: .NET Core Pipeline File
+
+on:
+  push:
+    branches: [ $default-branch ]
+
+jobs:
+  pipeline:
+    uses: soo-doh-kohd/pipeline/.github/workflows/dotnet-core-pipeline.yml@main
+    with:
+      environment: 'dev' # The environment you are deploying to.
+      project-name: '' # The name of your project.
+      dotnet-version: '5.0.x' # The version of .NET the application uses.
