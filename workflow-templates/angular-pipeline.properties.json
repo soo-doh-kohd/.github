@@ -1,6 +1,6 @@
 {
     "name": "Angular Pipeline",
-    "description": "Angular pipeline properties.",
+    "description": "Angular Pipeline based on Node.",
     "iconName": "angular",
     "categories": [
         "Go"
