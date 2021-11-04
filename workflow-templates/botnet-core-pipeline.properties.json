@@ -1,0 +1,13 @@
+{
+    "name": ".NET Core Pipeline",
+    "description": ".NET Core pipeline properties.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
