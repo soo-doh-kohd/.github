@@ -1,6 +1,6 @@
 {
     "name": ".NET Core Pipeline",
-    "description": ".NET Core pipeline properties.",
+    "description": ".NET Core Pipeline.",
     "iconName": "dotnet",
     "categories": [
         "Go"
