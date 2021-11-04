@@ -1,7 +1,7 @@
 {
     "name": ".NET Core Pipeline",
     "description": ".NET Core pipeline properties.",
-    "iconName": "example-icon",
+    "iconName": "dotnet",
     "categories": [
         "Go"
     ],
