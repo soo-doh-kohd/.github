@@ -1,7 +1,7 @@
 {
     "name": "Angular Pipeline",
     "description": "Angular pipeline properties.",
-    "iconName": "example-icon",
+    "iconName": "angular",
     "categories": [
         "Go"
     ],
